@@ -34,12 +34,14 @@ async function getWidgetsCatalog() {
 	}
 
 	final.total = totalWidgets;
+
+	console.log("共计"+totalWidgets+"个组件，正在写入widgets_catalog.json");
 	
 	fs.writeFile('./widgets_catalog.json',JSON.stringify(final),'utf8',function(err){
 	    if(err)
-	        console.log('写文件出错了，错误是：'+err);
+	        console.log('写入出错：'+err);
 	    else
-	        console.log('ok');
+	        console.log('写入成功');
 	})
 }
 

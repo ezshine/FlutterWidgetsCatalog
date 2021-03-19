@@ -27,7 +27,9 @@
 1. 安装好Flutter环境，查看教程
 2. clone本项目到本地
    1. `cd FlutterWigetsCatalog/app`
-   2. flutter run
+   2. `flutter create .`
+   3. `flutter run`
+3. 要运行nodejs爬虫，你需要`npm install`一下
 
 
 
@@ -35,7 +37,7 @@
 
 示例,视频 完成情况
 
-- [x]    - [ ]    AbsorbPointer
+- [x]    - [x]    AbsorbPointer
 - [x]    - [ ]    AlertDialog
 - [x]    - [ ]    Align
 - [x]    - [ ]    AnimatedAlign

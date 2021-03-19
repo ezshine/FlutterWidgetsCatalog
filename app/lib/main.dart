@@ -1,4 +1,11 @@
+import 'package:app/model/IconFontIcons.dart';
+import 'package:app/view/examples/ExampleAbsorbPointer.dart';
+import 'package:app/view/examples/ExampleAlertDialog.dart';
+import 'package:app/view/examples/ExampleAlign.dart';
+import 'package:app/view/examples/ExampleAnimatedAlign.dart';
 import 'package:app/view/pages/catalog.dart';
+import 'package:app/view/pages/detail.dart';
+import 'package:app/view/pages/indexed.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -24,6 +31,12 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: MyHomePage(title: 'Flutter Widgets Catalog'),
+      routes: {
+        "/examples/ExampleAbsorbPointer":(BuildContext context) => ExampleAbsorbPointer(),
+        "/examples/ExampleAlertDialog":(BuildContext context) => ExampleAlertDialog(),
+        "/examples/ExampleAlign":(BuildContext context) => ExampleAlign(),
+        "/examples/ExampleAnimatedAlign":(BuildContext context) => ExampleAnimatedAlign(),
+      },
     );
   }
 }
@@ -47,6 +60,17 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+
+  int currentBottomNav = 0;
+  PageController _pageController = PageController(initialPage: 0);
+
+  @override
+  void dispose() {
+    super.dispose();
+
+    _pageController.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -56,7 +80,33 @@ class _MyHomePageState extends State<MyHomePage> {
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
     return Scaffold(
-      body: PageCatalog() // This trailing comma makes auto-formatting nicer for build methods.
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      body: PageView(
+        physics: NeverScrollableScrollPhysics(),
+        controller: _pageController,
+        children: [
+          PageIndexed(),
+          PageCatalog()
+        ],
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.blueAccent,
+        selectedItemColor: Colors.white,
+        unselectedItemColor: Colors.white30,
+        currentIndex: currentBottomNav,
+        onTap: (int index){
+          setState(() {
+            currentBottomNav = index;
+            _pageController.jumpToPage(currentBottomNav);
+          });
+        },
+        items: [
+          BottomNavigationBarItem(icon: Icon(IconFontIcons.iconSortAscending),label: "索引"),
+          BottomNavigationBarItem(icon: Icon(IconFontIcons.iconApartment),label: "地图"),
+        ],
+      ),
     );
   }
 }

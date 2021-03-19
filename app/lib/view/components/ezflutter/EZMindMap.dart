@@ -5,6 +5,12 @@ class EZMindMap extends StatefulWidget {
 
   final List<Map> _allNodes = [];
 
+  Color itemTextColor = Colors.white;
+  Color itemBackgroundColor = Colors.blue;
+  double itemBorderRadius = 10;
+
+  Color backgroundColor = Colors.white;
+
   Map addNode(String text, [Map parentNode]) {
     Map node = {"text": text, "children": []};
 
@@ -25,16 +31,23 @@ class _EZMindMapState extends State<EZMindMap> {
   Offset drawStartPoint = Offset(0,0);
 
   @override
+  void initState() {
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
       height: double.infinity,
+      color: widget.backgroundColor,
       child: GestureDetector(
+        onTapUp: (TapUpDetails detail){
+          
+        },
         onPanUpdate: (DragUpdateDetails detail){
           drawStartPoint = Offset(drawStartPoint.dx + detail.delta.dx,drawStartPoint.dy + detail.delta.dy);
-          setState(() {
-            
-          });
+          setState(() {});
         },
         child: CustomPaint(
           painter: _EZMindMapPainter(widget._allNodes,drawStartPoint),
@@ -52,6 +65,10 @@ class _EZMindMapPainter extends CustomPainter {
   _EZMindMapPainter(List<Map> allNodes,[Offset startPoint]) {
     this.allNodes = allNodes;
     this.startPoint = startPoint??Offset(0,0);
+  }
+
+  getNodeByHitPosition(){
+
   }
 
   void drawNode(Map node,Canvas canvas){
@@ -83,6 +100,8 @@ class _EZMindMapPainter extends CustomPainter {
     canvas.drawRRect(RRect.fromLTRBR(x, y, x+width, y+height, Radius.circular(borderRadius)), paint);
     tp.paint(canvas, new Offset(x+hPadding, y+vPadding));
 
+    node["hitRect"] = Rect.fromLTWH(x, y, width, height);
+
     List children = node["children"];
     node["totalHeight"] = node["totalHeight"]??0;
     for(int i = 0 ;i <children.length;i++){
@@ -113,14 +132,15 @@ class _EZMindMapPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     // var paint = Paint()
     //   ..isAntiAlias = true
+    //   ..strokeWidth = 2
     //   ..style = PaintingStyle.fill //填充
-    //   ..color = Colors.yellow; //背景为纸黄色
-    // canvas.drawRect(Offset.zero & size, paint);
+    //   ..color = Colors.black; //绘制颜色
 
     for (int i = allNodes.length - 1; i >= 0; i--) {
       Map node = allNodes[i];
       drawNode(node, canvas);
     }
+
   }
 
   @override

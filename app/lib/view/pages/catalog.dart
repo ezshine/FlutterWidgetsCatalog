@@ -1,4 +1,3 @@
-import 'package:app/model/IconFontIcons.dart';
 import 'package:app/model/WidgetsJson.dart';
 import 'package:app/view/components/ezflutter/EZMindMap.dart';
 import 'package:flutter/material.dart';
@@ -11,11 +10,15 @@ class PageCatalog extends StatefulWidget {
   _PageCatalogState createState() => _PageCatalogState();
 }
 
-class _PageCatalogState extends State<PageCatalog> {
+class _PageCatalogState extends State<PageCatalog> with AutomaticKeepAliveClientMixin {
   
+  @override
+  bool get wantKeepAlive => true;
+
   EZMindMap mindMap;
 
   var rootNode;
+  var tempNode;
 
   @override
   void initState() {
@@ -25,8 +28,7 @@ class _PageCatalogState extends State<PageCatalog> {
 
     rootNode = mindMap.addNode("Widgets Catalog (${WidgetsJson.data['total']})");
 
-    var list = WidgetsJson.data["catalog"];
-
+    var list = WidgetsJson.data["list"];
     addNodeFromList(list,rootNode);
   }
 
@@ -42,6 +44,8 @@ class _PageCatalogState extends State<PageCatalog> {
   
   @override
   Widget build(BuildContext context) {
+    super.build(context);
+
     return Scaffold(
       body: mindMap
     );

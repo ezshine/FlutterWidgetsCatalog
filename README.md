@@ -35,181 +35,181 @@
 
 ### Widgets列表 （共173个）
 
-示例,视频 完成情况
-
-- [x]    - [x]    AbsorbPointer
-- [x]    - [ ]    AlertDialog
-- [x]    - [ ]    Align
-- [x]    - [ ]    AnimatedAlign
-- [ ]    - [ ]    AnimatedBuilder
-- [ ]    - [ ]    AnimatedContainer
-- [ ]    - [ ]    AnimatedCrossFade
-- [ ]    - [ ]    AnimatedDefaultTextStyle
-- [ ]    - [ ]    AnimatedListState
-- [ ]    - [ ]    AnimatedModalBarrier
-- [ ]    - [ ]    AnimatedOpacity
-- [ ]    - [ ]    AnimatedPhysicalModel
-- [ ]    - [ ]    AnimatedPositioned
-- [ ]    - [ ]    AnimatedSize
-- [ ]    - [ ]    AnimatedWidget
-- [ ]    - [ ]    AnimatedWidgetBaseState
-- [ ]    - [ ]    Appbar
-- [ ]    - [ ]    AspectRatio
-- [ ]    - [ ]    AssetBundle
-- [ ]    - [ ]    Autocomplete
-- [ ]    - [ ]    BackdropFilter
-- [ ]    - [ ]    Baseline
-- [ ]    - [ ]    BottomNavigationBar
-- [ ]    - [ ]    BottomSheet
-- [ ]    - [ ]    Card
-- [ ]    - [ ]    Center
-- [ ]    - [ ]    Checkbox
-- [ ]    - [ ]    Chip
-- [ ]    - [ ]    CircularProgressIndicator
-- [ ]    - [ ]    ClipOval
-- [ ]    - [ ]    ClipPath
-- [ ]    - [ ]    ClipRect
-- [ ]    - [ ]    Column
-- [ ]    - [ ]    ConstrainedBox
-- [ ]    - [ ]    Container
-- [ ]    - [ ]    CupertinoActionSheet
-- [ ]    - [ ]    CupertinoActivityIndicator
-- [ ]    - [ ]    CupertinoAlertDialog
-- [ ]    - [ ]    CupertinoButton
-- [ ]    - [ ]    CupertinoContextMenu
-- [ ]    - [ ]    CupertinoDatePicker
-- [ ]    - [ ]    CupertinoDialog
-- [ ]    - [ ]    CupertinoDialogAction
-- [ ]    - [ ]    CupertinoFullscreenDialogTransition
-- [ ]    - [ ]    CupertinoNavigationBar
-- [ ]    - [ ]    CupertinoPageScaffold
-- [ ]    - [ ]    CupertinoPageTransition
-- [ ]    - [ ]    CupertinoPicker
-- [ ]    - [ ]    CupertinoPopupSurface
-- [ ]    - [ ]    CupertinoScrollbar
-- [ ]    - [ ]    CupertinoSearchTextField
-- [ ]    - [ ]    CupertinoSegmentedControl
-- [ ]    - [ ]    CupertinoSlider
-- [ ]    - [ ]    CupertinoSlidingSegmentedControl
-- [ ]    - [ ]    CupertinoSliverNavigationBar
-- [ ]    - [ ]    CupertinoSwitch
-- [ ]    - [ ]    CupertinoTabBar
-- [ ]    - [ ]    CupertinoTabScaffold
-- [ ]    - [ ]    CupertinoTabView
-- [ ]    - [ ]    CupertinoTextField
-- [ ]    - [ ]    CupertinoTimerPicker
-- [ ]    - [ ]    CustomMultiChildLayout
-- [ ]    - [ ]    CustomPaint
-- [ ]    - [ ]    CustomScrollView
-- [ ]    - [ ]    CustomSingleChildLayout
-- [ ]    - [ ]    DataTable
-- [ ]    - [ ]    Date & Time Pickers
-- [ ]    - [ ]    DecoratedBox
-- [ ]    - [ ]    DecoratedBoxTransition
-- [ ]    - [ ]    DefaultTextStyle
-- [ ]    - [ ]    Dismissible
-- [ ]    - [ ]    Divider
-- [ ]    - [ ]    DragTarget
-- [ ]    - [ ]    Draggable
-- [ ]    - [ ]    DraggableScrollableSheet
-- [ ]    - [ ]    Drawer
-- [ ]    - [ ]    DropdownButton
-- [ ]    - [ ]    ElevatedButton
-- [ ]    - [ ]    ExcludeSemantics
-- [ ]    - [ ]    Expanded
-- [ ]    - [ ]    ExpansionPanel
-- [ ]    - [ ]    FadeTransition
-- [ ]    - [ ]    FittedBox
-- [ ]    - [ ]    FloatingActionButton
-- [ ]    - [ ]    Flow
-- [ ]    - [ ]    FlutterLogo
-- [ ]    - [ ]    Form
-- [ ]    - [ ]    FormField
-- [ ]    - [ ]    FractionalTranslation
-- [ ]    - [ ]    FractionallySizedBox
-- [ ]    - [ ]    FutureBuilder
-- [ ]    - [ ]    GestureDetector
-- [ ]    - [ ]    GridView
-- [ ]    - [ ]    Hero
-- [ ]    - [ ]    Icon
-- [ ]    - [ ]    IconButton
-- [ ]    - [ ]    IgnorePointer
-- [ ]    - [ ]    Image
-- [ ]    - [ ]    IndexedStack
-- [ ]    - [ ]    InteractiveViewer
-- [ ]    - [ ]    IntrinsicHeight
-- [ ]    - [ ]    IntrinsicWidth
-- [ ]    - [ ]    LayoutBuilder
-- [ ]    - [ ]    LimitedBox
-- [ ]    - [ ]    LinearProgressIndicator
-- [ ]    - [ ]    ListBody
-- [ ]    - [ ]    ListTile
-- [ ]    - [ ]    ListView
-- [ ]    - [ ]    LongPressDraggable
-- [ ]    - [ ]    MaterialApp
-- [ ]    - [ ]    MediaQuery
-- [ ]    - [ ]    MergeSemantics
-- [ ]    - [ ]    Navigator
-- [ ]    - [ ]    NestedScrollView
-- [ ]    - [ ]    NotificationListener
-- [ ]    - [ ]    Offstage
-- [ ]    - [ ]    Opacity
-- [ ]    - [ ]    OutlinedButton
-- [ ]    - [ ]    OverflowBox
-- [ ]    - [ ]    Padding
-- [ ]    - [ ]    PageView
-- [ ]    - [ ]    Placeholder
-- [ ]    - [ ]    PopupMenuButton
-- [ ]    - [ ]    PositionedTransition
-- [ ]    - [ ]    Radio
-- [ ]    - [ ]    RawImage
-- [ ]    - [ ]    RawKeyboardListener
-- [ ]    - [ ]    RefreshIndicator
-- [ ]    - [ ]    ReorderableListView
-- [ ]    - [ ]    RichText
-- [ ]    - [ ]    RotatedBox
-- [ ]    - [ ]    RotationTransition
-- [ ]    - [ ]    Row
-- [ ]    - [ ]    Scaffold
-- [ ]    - [ ]    ScaleTransition
-- [ ]    - [ ]    ScrollConfiguration
-- [ ]    - [ ]    Scrollable
-- [ ]    - [ ]    Scrollbar
-- [ ]    - [ ]    Semantics
-- [ ]    - [ ]    SimpleDialog
-- [ ]    - [ ]    SingleChildScrollView
-- [ ]    - [ ]    SizeTransition
-- [ ]    - [ ]    SizedBox
-- [ ]    - [ ]    SizedOverflowBox
-- [ ]    - [ ]    SlideTransition
-- [ ]    - [ ]    Slider
-- [ ]    - [ ]    SliverAppBar
-- [ ]    - [ ]    SliverChildBuilderDelegate
-- [ ]    - [ ]    SliverChildListDelegate
-- [ ]    - [ ]    SliverFixedExtentList
-- [ ]    - [ ]    SliverGrid
-- [ ]    - [ ]    SliverList
-- [ ]    - [ ]    SliverPadding
-- [ ]    - [ ]    SliverPersistentHeader
-- [ ]    - [ ]    SliverToBoxAdapter
-- [ ]    - [ ]    SnackBar
-- [ ]    - [ ]    Stack
-- [ ]    - [ ]    Stepper
-- [ ]    - [ ]    StreamBuilder
-- [ ]    - [ ]    Switch
-- [ ]    - [ ]    TabBar
-- [ ]    - [ ]    TabBarView
-- [ ]    - [ ]    TabController
-- [ ]    - [ ]    TabPageSelector
-- [ ]    - [ ]    Table
-- [ ]    - [ ]    Text
-- [ ]    - [ ]    TextButton
-- [ ]    - [ ]    TextField
-- [ ]    - [ ]    Theme
-- [ ]    - [ ]    Tooltip
-- [ ]    - [ ]    Transform
-- [ ]    - [ ]    WidgetsApp
-- [ ]    - [ ]    Wrap
+| 示例   | 视频   | 名称 |
+| :----: | :----: | ------ |
+| √ |  | AbsorbPointer |
+| √ |  | AlertDialog |
+| √ |  | Align |
+| √ |  | AnimatedAlign |
+|  |  | AnimatedBuilder |
+|  |  | AnimatedContainer |
+|  |  | AnimatedCrossFade |
+|  |  | AnimatedDefaultTextStyle |
+|  |  | AnimatedListState |
+|  |  | AnimatedModalBarrier |
+|  |  | AnimatedOpacity |
+|  |  | AnimatedPhysicalModel |
+|  |  | AnimatedPositioned |
+|  |  | AnimatedSize |
+|  |  | AnimatedWidget |
+|  |  | AnimatedWidgetBaseState |
+|  |  | Appbar |
+|  |  | AspectRatio |
+|  |  | AssetBundle |
+|  |  | Autocomplete |
+|  |  | BackdropFilter |
+|  |  | Baseline |
+|  |  | BottomNavigationBar |
+|  |  | BottomSheet |
+|  |  | Card |
+|  |  | Center |
+|  |  | Checkbox |
+|  |  | Chip |
+|  |  | CircularProgressIndicator |
+|  |  | ClipOval |
+|  |  | ClipPath |
+|  |  | ClipRect |
+|  |  | Column |
+|  |  | ConstrainedBox |
+|  |  | Container |
+|  |  | CupertinoActionSheet |
+|  |  | CupertinoActivityIndicator |
+|  |  | CupertinoAlertDialog |
+|  |  | CupertinoButton |
+|  |  | CupertinoContextMenu |
+|  |  | CupertinoDatePicker |
+|  |  | CupertinoDialog |
+|  |  | CupertinoDialogAction |
+|  |  | CupertinoFullscreenDialogTransition |
+|  |  | CupertinoNavigationBar |
+|  |  | CupertinoPageScaffold |
+|  |  | CupertinoPageTransition |
+|  |  | CupertinoPicker |
+|  |  | CupertinoPopupSurface |
+|  |  | CupertinoScrollbar |
+|  |  | CupertinoSearchTextField |
+|  |  | CupertinoSegmentedControl |
+|  |  | CupertinoSlider |
+|  |  | CupertinoSlidingSegmentedControl |
+|  |  | CupertinoSliverNavigationBar |
+|  |  | CupertinoSwitch |
+|  |  | CupertinoTabBar |
+|  |  | CupertinoTabScaffold |
+|  |  | CupertinoTabView |
+|  |  | CupertinoTextField |
+|  |  | CupertinoTimerPicker |
+|  |  | CustomMultiChildLayout |
+|  |  | CustomPaint |
+|  |  | CustomScrollView |
+|  |  | CustomSingleChildLayout |
+|  |  | DataTable |
+|  |  | Date & Time Pickers |
+|  |  | DecoratedBox |
+|  |  | DecoratedBoxTransition |
+|  |  | DefaultTextStyle |
+|  |  | Dismissible |
+|  |  | Divider |
+|  |  | DragTarget |
+|  |  | Draggable |
+|  |  | DraggableScrollableSheet |
+|  |  | Drawer |
+|  |  | DropdownButton |
+|  |  | ElevatedButton |
+|  |  | ExcludeSemantics |
+|  |  | Expanded |
+|  |  | ExpansionPanel |
+|  |  | FadeTransition |
+|  |  | FittedBox |
+|  |  | FloatingActionButton |
+|  |  | Flow |
+|  |  | FlutterLogo |
+|  |  | Form |
+|  |  | FormField |
+|  |  | FractionalTranslation |
+|  |  | FractionallySizedBox |
+|  |  | FutureBuilder |
+|  |  | GestureDetector |
+|  |  | GridView |
+|  |  | Hero |
+|  |  | Icon |
+|  |  | IconButton |
+|  |  | IgnorePointer |
+|  |  | Image |
+|  |  | IndexedStack |
+|  |  | InteractiveViewer |
+|  |  | IntrinsicHeight |
+|  |  | IntrinsicWidth |
+|  |  | LayoutBuilder |
+|  |  | LimitedBox |
+|  |  | LinearProgressIndicator |
+|  |  | ListBody |
+|  |  | ListTile |
+|  |  | ListView |
+|  |  | LongPressDraggable |
+|  |  | MaterialApp |
+|  |  | MediaQuery |
+|  |  | MergeSemantics |
+|  |  | Navigator |
+|  |  | NestedScrollView |
+|  |  | NotificationListener |
+|  |  | Offstage |
+|  |  | Opacity |
+|  |  | OutlinedButton |
+|  |  | OverflowBox |
+|  |  | Padding |
+|  |  | PageView |
+|  |  | Placeholder |
+|  |  | PopupMenuButton |
+|  |  | PositionedTransition |
+|  |  | Radio |
+|  |  | RawImage |
+|  |  | RawKeyboardListener |
+|  |  | RefreshIndicator |
+|  |  | ReorderableListView |
+|  |  | RichText |
+|  |  | RotatedBox |
+|  |  | RotationTransition |
+|  |  | Row |
+|  |  | Scaffold |
+|  |  | ScaleTransition |
+|  |  | ScrollConfiguration |
+|  |  | Scrollable |
+|  |  | Scrollbar |
+|  |  | Semantics |
+|  |  | SimpleDialog |
+|  |  | SingleChildScrollView |
+|  |  | SizeTransition |
+|  |  | SizedBox |
+|  |  | SizedOverflowBox |
+|  |  | SlideTransition |
+|  |  | Slider |
+|  |  | SliverAppBar |
+|  |  | SliverChildBuilderDelegate |
+|  |  | SliverChildListDelegate |
+|  |  | SliverFixedExtentList |
+|  |  | SliverGrid |
+|  |  | SliverList |
+|  |  | SliverPadding |
+|  |  | SliverPersistentHeader |
+|  |  | SliverToBoxAdapter |
+|  |  | SnackBar |
+|  |  | Stack |
+|  |  | Stepper |
+|  |  | StreamBuilder |
+|  |  | Switch |
+|  |  | TabBar |
+|  |  | TabBarView |
+|  |  | TabController |
+|  |  | TabPageSelector |
+|  |  | Table |
+|  |  | Text |
+|  |  | TextButton |
+|  |  | TextField |
+|  |  | Theme |
+|  |  | Tooltip |
+|  |  | Transform |
+|  |  | WidgetsApp |
+|  |  | Wrap |
 
 
 

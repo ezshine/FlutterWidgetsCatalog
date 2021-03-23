@@ -3,6 +3,11 @@ import 'package:app/view/examples/ExampleAbsorbPointer.dart';
 import 'package:app/view/examples/ExampleAlertDialog.dart';
 import 'package:app/view/examples/ExampleAlign.dart';
 import 'package:app/view/examples/ExampleAnimatedAlign.dart';
+import 'package:app/view/examples/ExampleAnimatedBuilder.dart';
+import 'package:app/view/examples/ExampleAnimatedContainer.dart';
+import 'package:app/view/examples/ExampleAnimatedCrossFade.dart';
+import 'package:app/view/examples/ExampleAnimatedDefaultTextStyle.dart';
+import 'package:app/view/examples/ExampleAnimatedListState.dart';
 import 'package:app/view/pages/catalog.dart';
 import 'package:app/view/pages/detail.dart';
 import 'package:app/view/pages/indexed.dart';
@@ -36,6 +41,11 @@ class MyApp extends StatelessWidget {
         "/examples/ExampleAlertDialog":(BuildContext context) => ExampleAlertDialog(),
         "/examples/ExampleAlign":(BuildContext context) => ExampleAlign(),
         "/examples/ExampleAnimatedAlign":(BuildContext context) => ExampleAnimatedAlign(),
+        "/examples/ExampleAnimatedBuilder":(BuildContext context) => ExampleAnimatedBuilder(),
+        "/examples/ExampleAnimatedContainer":(BuildContext context) => ExampleAnimatedContainer(),
+        "/examples/ExampleAnimatedCrossFade":(BuildContext context) => ExampleAnimatedCrossFade(),
+        "/examples/ExampleAnimatedDefaultTextStyle":(BuildContext context) => ExampleAnimatedDefaultTextStyle(),
+        "/examples/ExampleAnimatedListState":(BuildContext context) => ExampleAnimatedListState()
       },
     );
   }

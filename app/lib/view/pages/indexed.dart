@@ -24,7 +24,6 @@ class _PageIndexedState extends State<PageIndexed> with AutomaticKeepAliveClient
     
     parseCata(WidgetsJson.data);
     list.sort((Map a, Map b)=>a["title"].compareTo(b["title"]));
-    print(list.length);
   }
 
   void parseCata(Map cataMap){

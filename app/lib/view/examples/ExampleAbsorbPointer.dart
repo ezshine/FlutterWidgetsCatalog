@@ -25,12 +25,11 @@ class _ExampleAbsorbPointerState extends State<ExampleAbsorbPointer> {
       )
                 """,textAlign: TextAlign.left,style: TextStyle(color: Colors.white),),
               ),
-              ElevatedButton(onPressed: (){}, child: Text("正常的按钮")),
+              TextField(),
               AbsorbPointer(
                 absorbing: true,
-                child: ElevatedButton(onPressed: (){}, child: Text("被AbsorbPointer的包裹的按钮")),
-              ),
-              Text("AbsorbPointer的子组件可以忽略掉用户的交互")
+                child: TextField(),
+              )
             ]
         ),
       ),

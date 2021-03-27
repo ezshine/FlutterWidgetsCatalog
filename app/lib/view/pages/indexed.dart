@@ -40,7 +40,9 @@ class _PageIndexedState extends State<PageIndexed> with AutomaticKeepAliveClient
         return false;
       });
 
-      if(!exists)list.add(cataMap);
+      if(!exists){
+        list.add(cataMap);
+      }
     }
   }
   
@@ -53,7 +55,7 @@ class _PageIndexedState extends State<PageIndexed> with AutomaticKeepAliveClient
         return ListTile(
           onTap: (){
             Navigator.push(context, MaterialPageRoute(builder: (BuildContext context){
-              return PageDetail(info:list[index]);
+              return PageDetail(info:list[index],videoUrl: "https://www.bilibili.com/video/BV1rz4y117D6?p=${index+2}");
             }));
           },
           title: Text(list[index]["title"],style: TextStyle(fontSize: 20)),

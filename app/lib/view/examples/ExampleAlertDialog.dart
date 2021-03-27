@@ -8,6 +8,24 @@ class ExampleAlertDialog extends StatefulWidget {
 }
 
 class _ExampleAlertDialogState extends State<ExampleAlertDialog> {
+  
+  
+  getAlertDialog(){
+    return AlertDialog(
+                elevation: 5,
+                title: Text("这是标题"),
+                content: Text("这是文本内容这是文本内容这是文本内容这是文本内容这是文本内容"),
+                actions: [
+                  ElevatedButton(onPressed: (){
+                    Navigator.pop(context);
+                  }, child: Text("确定")),
+                  ElevatedButton(onPressed: (){
+                    Navigator.pop(context);
+                  }, child: Text("取消"),style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.grey)),),
+                ],
+              );
+  }
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -30,15 +48,13 @@ class _ExampleAlertDialogState extends State<ExampleAlertDialog> {
       )
                 """,textAlign: TextAlign.left,style: TextStyle(color: Colors.white),),
               ),
-              AlertDialog(
-                title: Text("这是标题"),
-                content: Text("这是内容"),
-                elevation: 10,
-                actions: [
-                  ElevatedButton(onPressed: (){}, child: Text("取消"),style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.grey)),),
-                  ElevatedButton(onPressed: (){}, child: Text("确定"))
-                ],
-              ),
+              getAlertDialog(),
+              ElevatedButton(onPressed: ()
+              {
+                showDialog(context: context, builder: (BuildContext context){
+                  return getAlertDialog();
+                });
+              }, child: Text("弹出对话框")),
               Text("AlertDialog是一个对话框组件")
             ]
         ),

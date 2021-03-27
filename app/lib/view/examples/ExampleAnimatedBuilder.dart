@@ -73,7 +73,7 @@ class _ExampleAnimatedBuilderState extends State<ExampleAnimatedBuilder> with Si
                   }
                 ),
               ),
-              Text("当AnimatedXXXX或XXXXTransition无法满足你对动画的需求时，看看AnimatedBuilder，它需要一个animationController但无需监听Listener。在动画执行期间会不断调用builder。")
+              Text("当AnimatedXXXX或XXXXTransition无法满足你对动画的需求时，比如连续循环的动画，那么你该看看AnimatedBuilder，它需要一个animationController但无需监听Listener。在动画执行期间会不断调用builder。")
             ]
         ),
       ),

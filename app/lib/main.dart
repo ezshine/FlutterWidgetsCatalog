@@ -8,8 +8,11 @@ import 'package:app/view/examples/ExampleAnimatedContainer.dart';
 import 'package:app/view/examples/ExampleAnimatedCrossFade.dart';
 import 'package:app/view/examples/ExampleAnimatedDefaultTextStyle.dart';
 import 'package:app/view/examples/ExampleAnimatedListState.dart';
+import 'package:app/view/examples/ExampleAnimatedModalBarrier.dart';
+import 'package:app/view/examples/ExampleAnimatedOpacity.dart';
+import 'package:app/view/examples/ExampleAnimatedPhysicalModel.dart';
+import 'package:app/view/examples/ExampleAnimatedPositioned.dart';
 import 'package:app/view/pages/catalog.dart';
-import 'package:app/view/pages/detail.dart';
 import 'package:app/view/pages/indexed.dart';
 import 'package:flutter/material.dart';
 
@@ -45,7 +48,11 @@ class MyApp extends StatelessWidget {
         "/examples/ExampleAnimatedContainer":(BuildContext context) => ExampleAnimatedContainer(),
         "/examples/ExampleAnimatedCrossFade":(BuildContext context) => ExampleAnimatedCrossFade(),
         "/examples/ExampleAnimatedDefaultTextStyle":(BuildContext context) => ExampleAnimatedDefaultTextStyle(),
-        "/examples/ExampleAnimatedListState":(BuildContext context) => ExampleAnimatedListState()
+        "/examples/ExampleAnimatedListState":(BuildContext context) => ExampleAnimatedListState(),
+        "/examples/ExampleAnimatedModalBarrier":(BuildContext context) => ExampleAnimatedModalBarrier(),
+        "/examples/ExampleAnimatedOpacity":(BuildContext context) => ExampleAnimatedOpacity(),
+        "/examples/ExampleAnimatedPhysicalModel":(BuildContext context) => ExampleAnimatedPhysicalModel(),
+        "/examples/ExampleAnimatedPositioned":(BuildContext context) => ExampleAnimatedPositioned()
       },
     );
   }

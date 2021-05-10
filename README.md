@@ -48,10 +48,10 @@
 | √ | √ |  | AnimatedCrossFade |
 | √ |  |  | AnimatedDefaultTextStyle |
 | √ |  |  | AnimatedListState |
-|  |  |  | AnimatedModalBarrier |
-|  | √ |  | AnimatedOpacity |
-|  |  |  | AnimatedPhysicalModel |
-|  | √ |  | AnimatedPositioned |
+| √ |  |  | AnimatedModalBarrier |
+| √ | √ |  | AnimatedOpacity |
+| √ |  |  | AnimatedPhysicalModel |
+| √ | √ |  | AnimatedPositioned |
 |  |  |  | AnimatedSize |
 |  | √ |  | AnimatedWidget |
 |  |  |  | AnimatedWidgetBaseState |
@@ -119,7 +119,7 @@
 |  |  |  | ElevatedButton |
 |  |  |  | ExcludeSemantics |
 |  |  |  | Expanded |
-|  |  |  | ExpansionPanel |
+|  | √ |  | ExpansionPanel |
 |  |  |  | FadeTransition |
 |  | √ |  | FittedBox |
 |  |  |  | FloatingActionButton |
@@ -169,7 +169,7 @@
 |  |  |  | RefreshIndicator |
 |  | √ |  | ReorderableListView |
 |  | √ |  | RichText |
-|  |  |  | RotatedBox |
+|  | √ |  | RotatedBox |
 |  |  |  | RotationTransition |
 |  |  |  | Row |
 |  |  |  | Scaffold |

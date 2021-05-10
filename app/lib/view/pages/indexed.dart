@@ -1,5 +1,3 @@
-import 'dart:collection';
-
 import 'package:app/model/WidgetsJson.dart';
 import 'package:app/view/pages/detail.dart';
 import 'package:flutter/material.dart';

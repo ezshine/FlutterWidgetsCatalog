@@ -41,7 +41,7 @@ class _ExampleAnimatedAlignState extends State<ExampleAnimatedAlign> {
               ),
               Text("AnimatedAlign组件的alignment改变时会有动画效果"),
               ElevatedButton(onPressed: (){
-                alignment = [Alignment.centerLeft,Alignment.center,Alignment.centerRight][Random().nextInt(3)];
+                alignment =  [Alignment.centerLeft,Alignment.center,Alignment.centerRight][Random().nextInt(3)];
                 setState(() {
                   
                 });

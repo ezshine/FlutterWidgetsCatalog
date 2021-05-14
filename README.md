@@ -176,7 +176,7 @@
 |  |  |  | ScaleTransition |
 |  |  |  | ScrollConfiguration |
 |  |  |  | Scrollable |
-|  |  |  | Scrollbar |
+|  | √ |  | Scrollbar |
 |  | √ |  | Semantics |
 |  |  |  | SimpleDialog |
 |  |  |  | SingleChildScrollView |

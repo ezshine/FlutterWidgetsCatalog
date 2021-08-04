@@ -124,7 +124,7 @@
 |  | √ |  | FittedBox |
 |  |  |  | FloatingActionButton |
 |  |  |  | Flow |
-|  |  |  | FlutterLogo |
+|  | √ |  | FlutterLogo |
 |  |  |  | Form |
 |  |  |  | FormField |
 |  |  |  | FractionalTranslation |
